@@ -1,0 +1,299 @@
+/* Universal Specifications for the whole body*/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  padding: 8px 6px 0 6px;
+  font-size: 12px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 17px;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  padding: 15px 32px 32px;
+  margin: 0px
+}
+
+strong {
+  color: green;
+}
+
+/* Navigation bar */
+#title {
+  background-color: black;
+  color: #fff;
+}
+
+.three {
+  padding: 0 18px;
+}
+
+.navbar .navbar-nav .nav-link .nav-h2:hover {
+  color: green;
+}
+
+.profile-btn {
+  margin-right: 8rem;
+}
+
+.spotify_logo {
+  margin-left: 8rem;
+  height: 12%;
+  width: 12%;
+}
+
+.nav-h2 {
+  color: #fff;
+  font-size: 14px;
+}
+
+.profile-img {
+  margin-left: 4rem;
+}
+
+/* Main Body Section */
+#main-body {
+  background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+  padding: 10rem 0;
+}
+
+.main-tb {
+  margin-left: auto;
+  margin-top: 10rem;
+}
+
+.main-text {
+  font-size: 52px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  transition: transform .2s;
+}
+
+.download-button:hover {
+  transform: scale(1.12);
+}
+
+.title-image {
+  width: 30;
+  margin-left: 15rem;
+  position: absolute;
+}
+
+/* Features */
+#features {
+  background-color: #fff;
+  padding: 5% 10%;
+  position: relative;
+}
+
+.icons {
+  margin-left: 54px;
+  margin-bottom: 16px;
+}
+
+.why {
+  color: black;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.third-txt {
+  text-align: center;
+  font-size: 17px;
+}
+
+.fourth-txt {
+  text-align: center;
+  font-size: 17px;
+}
+
+.insider-p {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Ready lets play section */
+#details-small {
+  padding: 5rem 5rem;
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.lil-1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  padding: 70px 15px 0px;
+}
+
+.lil-2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  padding: 0px 15px 80px;
+}
+
+/* Acordion Menu Section*/
+#acordion-section {
+  padding: 5rem 10rem;
+}
+
+.aco-head {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 10px;
+  width: calc(100% - 24px);
+}
+
+.ready {
+  padding: 5rem 5rem;
+  text-align: center;
+  background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.rdy-text {
+  padding-top: 3rem;
+  font-size: 60px;
+}
+
+/* Footer */
+#footer {
+  background: black;
+  color: white;
+  padding: 80px 0;
+}
+
+#footer .footer-content {
+  display: flex;
+  width: 76.25%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+  margin: 0 60px;
+  list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+  margin: 25px 0;
+  transition: all 300ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+  color: #1ed760;
+  cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #919496;
+  font-size: 0.8rem;
+}
+
+.spotify_logo-bot {
+  height: 40px;
+  width: auto;
+}
+
+.social-icons {
+  padding-top: 14rem;
+  padding-bottom: 1rem;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.social-icons ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.social-icons ul li {
+  margin-right: 1.5rem;
+  background: #222326;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.social-icons img {
+  background: white;
+  display: block;
+  width: 2.3rem;
+}
+
+.social-icons img:hover {
+  background: #1ed760;
+  transition: all 300ms ease;
+}
+
+/* Footer Info */
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 76.25%;
+  margin: auto;
+  color: #919496;
+  font-size: 0.75rem;
+  padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+  display: flex;
+  list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 10px;
+  transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+  color: #1ed760;
+  cursor: pointer;
+}
+
+.footer-info .rights .country {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-info .rights .country p {
+  transition: all 300ms ease;
+}
+
+.footer-info .rights .country p:hover {
+  color: #1ed760;
+  cursor: pointer;
+}
+
+.footer-menu-item {
+  font-size: 0.8rem;
+}
+
+.rights {
+  font-family: 'Open Sans', sans-serif;
+}
