@@ -297,3 +297,31 @@ strong {
 .rights {
   font-family: 'Open Sans', sans-serif;
 }
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #features{
+    text-align: center;
+  }
+  .social-icons{
+    display: none;
+  }
+  .main-text{
+    text-align: center;
+  }
+  .download-button{
+    margin: 5rem 24rem 0rem;
+  }
+  .profile-img{
+    display: none;
+  }
+  .profile-btn{
+    display: none;
+  }
+}
